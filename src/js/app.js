@@ -1,6 +1,6 @@
 import Collapse from './collapse';
 
-const text = document.createElement('span');
+const text = document.createElement('div');
 text.textContent = `Анимация — один из основных инструментов в современной frontendразработке.
 Элементы анимации позволяют улучшить пользовательский интерфейс,
 делая его дружелюбнее для обычного пользователя.
@@ -11,3 +11,4 @@ text.textContent = `Анимация — один из основных инст
 const collapse = new Collapse(text);
 
 collapse.addContainer();
+collapse.listner();

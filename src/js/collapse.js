@@ -17,10 +17,7 @@ export default class Collapse {
     const button = document.querySelector('.button');
     button.addEventListener('click', (e) => {
       e.preventDefault();
+      this.element.classList.toggle('elementState');
     });
-  }
-
-  anime() {
-
   }
 }
